@@ -1,0 +1,639 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "CHANGE_THIS_LOCAL_TEST_PASSWORD",
+      "role": "admin",
+      "phone": "",
+      "loyaltyPoints": 0,
+      "addresses": []
+    },
+    {
+      "id": "2",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "CHANGE_THIS_LOCAL_TEST_PASSWORD",
+      "role": "user",
+      "phone": "",
+      "loyaltyPoints": 250,
+      "addresses": []
+    },
+    {
+      "id": "3",
+      "name": "Alex Smith",
+      "email": "alex@example.com",
+      "password": "CHANGE_THIS_LOCAL_TEST_PASSWORD",
+      "role": "user",
+      "phone": "",
+      "loyaltyPoints": 0,
+      "addresses": []
+    },
+    {
+      "id": "5xepfRszkoQ",
+      "name": "Sample Customer",
+      "email": "customer1@example.com",
+      "password": "CHANGE_THIS_LOCAL_TEST_PASSWORD",
+      "role": "user",
+      "phone": "",
+      "loyaltyPoints": 0,
+      "addresses": []
+    },
+    {
+      "id": "WhO8QdhT_5M",
+      "name": "Sample Customer 2",
+      "email": "customer2@example.com",
+      "password": "CHANGE_THIS_LOCAL_TEST_PASSWORD",
+      "role": "user",
+      "phone": "",
+      "loyaltyPoints": 560,
+      "addresses": []
+    },
+    {
+      "id": "cny-M0Jbvrk",
+      "name": "K Rohith",
+      "email": "kalarohith888@gmail.com",
+      "password": "CHANGE_THIS_PASSWORD",
+      "role": "user",
+      "phone": "",
+      "loyaltyPoints": 5402,
+      "addresses": [
+        {
+          "id": "7491e68b-24dd-484f-b517-2ecd2e717c06",
+          "label": "Home",
+          "street": "53-11-5/11",
+          "city": "Visakhapatnam",
+          "state": "Andhra Pradesh",
+          "zip": "530013"
+        }
+      ]
+    },
+    {
+      "id": "sOyUB1w6u5Q",
+      "name": "K Rohith",
+      "email": "kalahasthirohith22@gmail.com",
+      "password": "CHANGE_THIS_PASSWORD",
+      "role": "user",
+      "phone": "8885418894",
+      "loyaltyPoints": 6000,
+      "addresses": [
+        {
+          "id": "434105be-f6c1-4cab-b9c9-854b16ccb63b",
+          "label": "Home",
+          "street": "53-11-15/1",
+          "city": "Visakhapatnam",
+          "state": "Andhra Pradesh",
+          "zip": "530013"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Noise-Canceling Headphones",
+      "brand": "Sony",
+      "category": "Electronics",
+      "priceRange": "High",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "description": "Industry-leading noise cancellation with 30-hour battery life.",
+      "warranty": "1 Year",
+      "deliveryTime": "2-3 Days",
+      "rating": 4.8,
+      "price": 19999,
+      "stock": 0,
+      "currency": "INR",
+      "highlight": "Active Noise Cancellation",
+      "dimensions": "25.4 x 18.5 x 7.6 cm",
+      "features": [
+        "30-Hour Battery",
+        "Touch Controls",
+        "Bluetooth 5.2",
+        "Fast Charging"
+      ],
+      "isFlashSale": true,
+      "flashTotalStock": 20,
+      "flashClaimedUnits": 20
+    },
+    {
+      "id": "2",
+      "name": "Classic Running Sneakers",
+      "brand": "Nike",
+      "category": "Footwear",
+      "priceRange": "Medium",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+      "description": "Lightweight breathable mesh running shoes for daily comfort.",
+      "warranty": "6 Months",
+      "deliveryTime": "3-4 Days",
+      "rating": 4.6,
+      "price": 6499,
+      "stock": 0,
+      "currency": "INR",
+      "highlight": "Responsive Foam Cushioning",
+      "dimensions": "UK 6 - UK 11",
+      "features": [
+        "Breathable Mesh",
+        "Rubber Outsole",
+        "Padded Collar",
+        "Lightweight"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Minimalist Leather Watch",
+      "brand": "Fossil",
+      "category": "Accessories",
+      "priceRange": "Medium",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+      "description": "Timeless analog wristwatch with genuine brown leather strap.",
+      "warranty": "2 Years",
+      "deliveryTime": "2 Days",
+      "rating": 4.7,
+      "price": 8999,
+      "stock": 0,
+      "currency": "INR",
+      "highlight": "Water Resistant up to 50m",
+      "dimensions": "42mm Case Diameter",
+      "features": [
+        "Quartz Movement",
+        "Genuine Leather",
+        "Scratch-Resistant Glass",
+        "5ATM Water Resistant"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Cotton Oversized Hoodie",
+      "brand": "H&M",
+      "category": "Fashion",
+      "priceRange": "Low",
+      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
+      "description": "Soft fleece-lined cotton hoodie for everyday casual wear.",
+      "warranty": "No Warranty",
+      "deliveryTime": "3-5 Days",
+      "rating": 4.5,
+      "price": 1999,
+      "stock": 0,
+      "currency": "INR",
+      "highlight": "100% Organic Cotton",
+      "dimensions": "S, M, L, XL",
+      "features": [
+        "Fleece Lined",
+        "Kangaroo Pocket",
+        "Drawstring Hood",
+        "Machine Washable"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Smart Fitness Band",
+      "brand": "Mi",
+      "category": "Electronics",
+      "priceRange": "Low",
+      "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6",
+      "description": "AMOLED display fitness tracker with 24/7 heart rate and SpO2 monitoring.",
+      "warranty": "1 Year",
+      "deliveryTime": "1-2 Days",
+      "rating": 4.4,
+      "price": 2499,
+      "stock": 0,
+      "currency": "INR",
+      "highlight": "14-Day Battery Life",
+      "dimensions": "1.62 inch Display",
+      "features": [
+        "AMOLED Screen",
+        "SpO2 Sensor",
+        "110+ Sports Modes",
+        "5ATM Waterproof"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Ultrabook Laptop 14-inch",
+      "brand": "Apple",
+      "category": "Electronics",
+      "priceRange": "High",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+      "description": "Ultra-thin aluminum laptop with blazing-fast processor and Liquid Retina display.",
+      "warranty": "1 Year",
+      "deliveryTime": "2 Days",
+      "rating": 4.9,
+      "price": 89999,
+      "stock": 0,
+      "currency": "INR",
+      "highlight": "18-Hour All-Day Battery",
+      "dimensions": "31.26 x 22.12 x 1.55 cm",
+      "features": [
+        "Retina Display",
+        "16GB Unified Memory",
+        "512GB SSD",
+        "Backlit Magic Keyboard"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "ProBook Ultra Laptop",
+      "brand": "TechCore",
+      "category": "Electronics",
+      "priceRange": "High",
+      "price": 75000,
+      "stock": 2,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+      "description": "High-performance ultrabook with customizable finishes and storage.",
+      "warranty": "1 Year",
+      "deliveryTime": "2-3 Days",
+      "currency": "INR",
+      "features": [
+        "Customizable Colors",
+        "Multiple Storage Options",
+        "High Performance",
+        "Lightweight Design"
+      ],
+      "variants": {
+        "colors": [
+          {
+            "name": "Space Gray",
+            "hex": "#4b5563",
+            "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+          },
+          {
+            "name": "Silver Frost",
+            "hex": "#cbd5e1",
+            "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+          },
+          {
+            "name": "Midnight Black",
+            "hex": "#0f172a",
+            "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2"
+          }
+        ],
+        "options": [
+          {
+            "label": "256GB SSD",
+            "priceDelta": 0,
+            "stock": 5
+          },
+          {
+            "label": "512GB SSD",
+            "priceDelta": 10000,
+            "stock": 3
+          },
+          {
+            "label": "1TB SSD",
+            "priceDelta": 22000,
+            "stock": 0
+          }
+        ]
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "ckNo7kBENtk",
+      "userId": "cny-M0Jbvrk",
+      "userName": "K Rohith",
+      "shippingAddress": {
+        "id": "7491e68b-24dd-484f-b517-2ecd2e717c06",
+        "label": "Home",
+        "street": "53-11-5/11",
+        "city": "Visakhapatnam",
+        "state": "Andhra Pradesh",
+        "zip": "530013"
+      },
+      "items": [
+        {
+          "id": "4",
+          "name": "Cotton Oversized Hoodie",
+          "brand": "H&M",
+          "category": "Fashion",
+          "price": 1999,
+          "stock": 4,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
+          "currency": "INR"
+        }
+      ],
+      "subtotal": 1999,
+      "discount": 400,
+      "promoCode": "SAVE20",
+      "loyaltyPointsUsed": 0,
+      "loyaltyPointsEarned": 160,
+      "totalAmount": 1599,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending (COD)",
+      "transactionId": "N/A",
+      "status": "Delivered",
+      "orderDate": "2026-11-16T13:58:59.278Z"
+    },
+    {
+      "id": "ord_101",
+      "userId": "3",
+      "userName": "Alex Smith",
+      "status": "Processing",
+      "totalAmount": 2999,
+      "orderDate": "2026-11-16",
+      "items": [],
+      "milestones": [
+        {
+          "stage": "Order Placed",
+          "timestamp": "08:15 PM",
+          "note": "Payment verified and order received."
+        },
+        {
+          "stage": "Processing",
+          "timestamp": "08:20 PM",
+          "note": "Warehouse team assigned to pick items."
+        }
+      ]
+    },
+    {
+      "id": "oRjchjN479g",
+      "userId": "cny-M0Jbvrk",
+      "userName": "K Rohith",
+      "shippingAddress": {
+        "id": "7491e68b-24dd-484f-b517-2ecd2e717c06",
+        "label": "Home",
+        "street": "53-11-5/11",
+        "city": "Visakhapatnam",
+        "state": "Andhra Pradesh",
+        "zip": "530013"
+      },
+      "items": [
+        {
+          "id": "7",
+          "name": "ProBook Ultra Laptop",
+          "brand": "TechCore",
+          "category": "Electronics",
+          "price": 75000,
+          "stock": 6,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+          "currency": "INR",
+          "quantity": 1,
+          "variant": "Space Gray / 256GB SSD"
+        }
+      ],
+      "subtotal": 75000,
+      "discount": 15160,
+      "promoCode": "SAVE20",
+      "loyaltyPointsUsed": 160,
+      "loyaltyPointsEarned": 5984,
+      "totalAmount": 59840,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending (COD)",
+      "transactionId": "N/A",
+      "status": "Replacement Dispatched",
+      "orderDate": "2026-11-17T03:42:09.602Z"
+    },
+    {
+      "id": "t-VZVK7LFWo",
+      "userId": "sOyUB1w6u5Q",
+      "userName": "K Rohith",
+      "shippingAddress": {
+        "id": "434105be-f6c1-4cab-b9c9-854b16ccb63b",
+        "label": "Home",
+        "street": "53-11-15/1",
+        "city": "Visakhapatnam",
+        "state": "Andhra Pradesh",
+        "zip": "530013"
+      },
+      "items": [
+        {
+          "id": "7",
+          "name": "ProBook Ultra Laptop",
+          "brand": "TechCore",
+          "category": "Electronics",
+          "price": 75000,
+          "stock": 4,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+          "currency": "INR",
+          "quantity": 1,
+          "variant": "Space Gray / 256GB SSD"
+        }
+      ],
+      "subtotal": 75000,
+      "discount": 15000,
+      "promoCode": "SAVE20",
+      "negotiatedCoupon": null,
+      "loyaltyPointsUsed": 0,
+      "loyaltyPointsEarned": 6000,
+      "totalAmount": 60000,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending (COD)",
+      "transactionId": "N/A",
+      "status": "Cancelled",
+      "orderDate": "2026-11-17T04:43:18.511Z",
+      "cancelledAt": "2026-11-17T06:33:44.675Z"
+    },
+    {
+      "userId": "cny-M0Jbvrk",
+      "userName": "K Rohith",
+      "shippingAddress": {
+        "id": "7491e68b-24dd-484f-b517-2ecd2e717c06",
+        "label": "Home",
+        "street": "53-11-5/11",
+        "city": "Visakhapatnam",
+        "state": "Andhra Pradesh",
+        "zip": "530013"
+      },
+      "items": [
+        {
+          "id": "7",
+          "name": "ProBook Ultra Laptop",
+          "brand": "TechCore",
+          "category": "Electronics",
+          "priceRange": "High",
+          "price": 75000,
+          "stock": 3,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+          "description": "High-performance ultrabook with customizable finishes and storage.",
+          "warranty": "1 Year",
+          "deliveryTime": "2-3 Days",
+          "currency": "INR",
+          "features": [
+            "Customizable Colors",
+            "Multiple Storage Options",
+            "High Performance",
+            "Lightweight Design"
+          ],
+          "variants": {
+            "colors": [
+              {
+                "name": "Space Gray",
+                "hex": "#4b5563",
+                "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+              },
+              {
+                "name": "Silver Frost",
+                "hex": "#cbd5e1",
+                "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+              },
+              {
+                "name": "Midnight Black",
+                "hex": "#0f172a",
+                "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2"
+              }
+            ],
+            "options": [
+              {
+                "label": "256GB SSD",
+                "priceDelta": 0,
+                "stock": 5
+              },
+              {
+                "label": "512GB SSD",
+                "priceDelta": 10000,
+                "stock": 3
+              },
+              {
+                "label": "1TB SSD",
+                "priceDelta": 22000,
+                "stock": 0
+              }
+            ]
+          },
+          "quantity": 1
+        }
+      ],
+      "subtotal": 75000,
+      "discount": 20984,
+      "promoCode": "SAVE20",
+      "negotiatedCoupon": null,
+      "loyaltyPointsUsed": 5984,
+      "loyaltyPointsEarned": 5402,
+      "totalAmount": 54016,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending (COD)",
+      "transactionId": "N/A",
+      "status": "Refunded",
+      "orderDate": "2026-11-17T06:46:56.038Z",
+      "id": "YTUPxeTy_2U"
+    }
+  ],
+  "returns": [
+    {
+      "id": "ret_101",
+      "orderId": "oRjchjN479g",
+      "userId": "cny-M0Jbvrk",
+      "productId": "7",
+      "productName": "ProBook Ultra Laptop",
+      "type": "exchange",
+      "reason": "Wrong color or size",
+      "replacementVariant": "Silver Frost / 512GB SSD",
+      "pickupSlot": "Today, 4:00 PM - 6:00 PM",
+      "refundAmount": 0,
+      "status": "Picked Up & Completed",
+      "driverName": "Kiran Kumar",
+      "driverLat": 17.6868,
+      "driverLng": 83.2185,
+      "customerLat": 17.6868,
+      "customerLng": 83.2185
+    },
+    {
+      "orderId": "YTUPxeTy_2U",
+      "userId": "cny-M0Jbvrk",
+      "productId": "7",
+      "productName": "ProBook Ultra Laptop",
+      "type": "refund",
+      "reason": "Item arrived damaged or defective",
+      "replacementVariant": null,
+      "pickupSlot": "Today, 2:00 PM - 4:00 PM",
+      "refundAmount": 54016,
+      "status": "Picked Up & Completed",
+      "driverName": "Ramesh Varma",
+      "driverLat": 17.6868,
+      "driverLng": 83.2185,
+      "customerLat": 17.6868,
+      "customerLng": 83.2185,
+      "createdAt": "2026-11-17T06:48:36.390Z",
+      "id": "JNqqgBwJ4CQ"
+    }
+  ],
+  "dynamicCoupons": [
+    {
+      "id": "dc_101",
+      "code": "DEAL-9X42",
+      "userId": "1",
+      "productId": "1",
+      "discountAmount": 1500,
+      "expiresAt": 1794890000000,
+      "used": false
+    }
+  ],
+  "priceAlerts": [
+    {
+      "id": "alert_1",
+      "userId": "3",
+      "userName": "Alex Smith",
+      "productId": "1",
+      "productName": "Wireless Noise-Canceling Headphones",
+      "targetType": "both",
+      "targetPrice": 2500,
+      "dateSubscribed": "2026-06-12"
+    }
+  ],
+  "supportChats": [
+    {
+      "id": "chat_1",
+      "userId": "3",
+      "userName": "Alex Smith",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "Hi! Can you tell me when my order will ship?",
+          "time": "08:30 PM"
+        },
+        {
+          "sender": "admin",
+          "text": "Hello Alex! Your order is currently being packed in our warehouse.",
+          "time": "08:31 PM"
+        }
+      ],
+      "status": "active"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "101",
+      "productId": "1",
+      "userId": "2",
+      "userName": "John Doe",
+      "rating": 5,
+      "comment": "Amazing sound quality and excellent battery life.",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "r1",
+      "productId": "1",
+      "userId": "2",
+      "userName": "John Doe",
+      "rating": 5,
+      "comment": "Absolutely fantastic product! Exceeded my expectations.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "attributes": {
+        "quality": 5,
+        "value": 4,
+        "delivery": 5
+      },
+      "helpfulVotes": 12,
+      "date": "2026-06-12"
+    }
+  ],
+  "wishlist": [],
+  "questions": [
+    {
+      "id": "q1",
+      "productId": "1",
+      "userId": "2",
+      "userName": "John Doe",
+      "question": "Does this come with an international warranty?",
+      "answer": "Yes, it includes a 1-year manufacturer warranty worldwide.",
+      "date": "2026-06-12"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
